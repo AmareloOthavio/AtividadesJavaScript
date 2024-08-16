@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+
+    <script>
+        //Calculadora Simples
+
+        var num1 = prompt("Digite seu primeiro número")
+        var op = prompt('Digite o operador aritmético')
+        var num2 = prompt("Digite seu segundo número")
+
+        var resultado = 0
+
+        num1 = parseFloat(num1)
+        num2 = parseFloat(num2)
+
+        if (op == "+") {
+            resultado = num1+num2
+            alert("O resultado é "+resultado)
+        }
+        else if (op == "-") {
+            resultado = num1-num2
+            alert("O resultado é "+resultado)
+        }
+        else if (op == "*") {
+            resultado = num1*num2
+            alert("O resultado é "+resultado)
+        }
+        else if (op == "/") {
+            resultado = num1/num2
+            alert("O resultado é "+resultado)
+        }
+        else {
+            alert("Erro")
+        }
+
+        
+    </script>
+
+
+
+
+
+</head>
+<body>
+    <h1>Aula de JavaScript</h1>
+</body>
+</html>
